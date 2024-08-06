@@ -14,11 +14,11 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Chirpy 설치 테스트 # the main title
+title: dyeon-dev # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the sub-title
+tagline: Frontend-Developer # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feeds
   Jekyll chirpy theme test
 
 # Fill in the protocol & hostname for your site.
@@ -96,7 +96,7 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: "/assets/img/avatar.JPG"
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
