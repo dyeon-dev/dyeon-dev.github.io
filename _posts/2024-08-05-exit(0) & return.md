@@ -19,7 +19,7 @@
 <hr>
 
 ### Code 1
-> https://www.acmicpc.net/problem/18428
+> <https://www.acmicpc.net/problem/18428>
 
 처음 해당 문제에 대한 코드를 짰을 때는 정답을 찾으면 바로 답을 출력하면서 exit(0) 함수로 프로그램을 종료시켰습니다.
 
@@ -122,10 +122,10 @@ if (dfs(0)) {
 
 이러한 방식들을 사용하면 exit(0)과 마찬가지로 추가 탐색을 중단하는데 유용하게 사용될 수 있습니다.
 
-[전체코드보기](https://github.com/dyeon-dev/Algorithm/blob/master/%EB%B0%B1%EC%A4%80/Gold/18428.%E2%80%85%EA%B0%90%EC%8B%9C%E2%80%85%ED%94%BC%ED%95%98%EA%B8%B0/%EA%B0%90%EC%8B%9C%E2%80%85%ED%94%BC%ED%95%98%EA%B8%B0.java)
+[전체코드보기](https://github.com/UREKA-Algorithm-Study/KimDaYeon/blob/main/week5/bj_18428.java)
 
 ### Code2
->https://www.acmicpc.net/problem/2580
+><https://www.acmicpc.net/problem/2580>
 
 또 다른 문제에서도 재귀 부분에서 exit()가 아닌 return은 왜 안되는지 살펴보겠습니다.
 
@@ -226,7 +226,7 @@ private static void printSudoku() {
 
 이처럼 exit 대신 return을 재귀 흐름을 제어하는 데 사용하면 좀 더 구조화된 접근 방식으로 보장됩니다.
 
-[전체코드보기]()
+[전체코드보기](https://github.com/UREKA-Algorithm-Study/KimDaYeon/blob/main/week5/bj_2580.java)
 
 ## 결론
 return으로 사용하는 것이 코드의 유연성과 유지 관리에 좋지만, 재귀를 통한 백트래킹 방식에서는 exit()가 상당히 요긴하게 쓰입니다 🙂 !
