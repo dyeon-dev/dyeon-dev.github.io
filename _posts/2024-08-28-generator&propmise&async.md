@@ -290,10 +290,8 @@ promise.then((value) => { // resolve('success')
 
 2초 후에 Producer부분에서 promise가 성공적으로 처리되면 resolve를 반환하며 Consumer부분에서 promise.then 구문이 실행됩니다. 반대로 Producer 부분에서 성공적으로 처리되지 않으면 reject를 반환하고  Consumer에서 .catch 구문이 실행됩니다. 또한, 성공/실패 여부에 상관없이 finally구문은 실행됩니다.
 
-<aside>
-💡 Producer 부분에서 새로운 **promise를 만들면**, **자동적으로 함수가 바로 실행되는 특징**이 있습니다. 따라서 만약 네트워크 요청을 사용자가 요청했을 때만(예를 들어 버튼을 눌렀을 때만) 수행해야한다면, 불필요한 네트워크 처리가 이뤄질 수도 있다는 점을 유념해야합니다.
-
-</aside>
+> 💡 Producer 부분에서 새로운 **promise를 만들면**, **자동적으로 함수가 바로 실행되는 특징**이 있습니다. 따라서 만약 네트워크 요청을 사용자가 요청했을 때만(예를 들어 버튼을 눌렀을 때만) 수행해야한다면, 불필요한 네트워크 처리가 이뤄질 수도 있다는 점을 유념해야합니다.
+{: .prompt-tip }
 
 ## Promise chaning
 
@@ -538,5 +536,6 @@ app.get("/home", function (req, res) {
 ```
 
 > 콜백 함수는 복잡하지 않고 비교적 심플한 비동기 작업을 처리해야 할 때 사용 good
+{: .prompt-tip }
 > Promise 객체는 비교적 복잡한 비동기 작업을 처리할 때 사용 good
 {: .prompt-tip }
