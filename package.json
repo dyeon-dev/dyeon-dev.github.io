@@ -6,7 +6,6 @@
     "type": "git",
     "url": "git+https://github.com/cotes2020/jekyll-theme-chirpy.git"
   },
-  "author": "Cotes Chung",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/cotes2020/jekyll-theme-chirpy/issues"
