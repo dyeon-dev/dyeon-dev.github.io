@@ -1,5 +1,5 @@
 ---
-title: 제너레이터 / Promise / async await
+title: Generator / Promise / Async await
 author: cotes
 date: 2024-08-28 11:33:00 +0800
 categories: [Blogging, 자바스크립트]
