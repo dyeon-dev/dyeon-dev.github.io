@@ -1,7 +1,6 @@
 ---
 title: Async-await 동작원리 (ft. Generator)
-author: cotes
-date: 2024-08-28 11:33:00 +0800
+date: 2024-09-25 11:33:00 +0800
 categories: [Blogging, 자바스크립트]
 tags: [generator, async await, 동작원리]
 math: true
