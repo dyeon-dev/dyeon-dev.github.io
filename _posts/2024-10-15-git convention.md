@@ -3,13 +3,13 @@ title: Git Convention
 author: cotes
 date: 2024-10-15 11:33:00 +0800
 categories: [Blogging, Git]
-tags: [commit message, git]
+tags: [git]
 math: true
 mermaid: true
 ---
 
 우테코 프리코스 7기의 1주차 학습목표이다.
-![alt text](image.png)
+![alt text](/assets/img/image-4.png)
 이번 기회에 참여하면서 Git의 커밋 단위로  [AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)을 참고하여 커밋 메세지를 작성해보고 정리해보았다.
 
 > 목차
@@ -281,4 +281,4 @@ The removed `inject` wasn't generaly useful for directives so there should be no
 그동안은 여러 블로그 글들을 참고하며 다른 컨벤션 방식들을 짬뽕해서 사용하거나 header, body, footer 내용을 상세하게 알고 사용하지 않았다.
 
 이번 기회에 확실히 커밋 메세지 작성법을 정리하면서
-배포, 커밋의 중요도에 따른 작성법과 관련된 내용도 알게 되었고, 기존보다 상세한 컨벤션 방법까지 알게되어서 좋았다! 😄
+배포, 커밋의 중요도에 따른 작성법과 관련된 내용도 알게 되었고, 기존보다 상세한 컨벤션 방법까지 알게되어서 좋았다! 앞으로 개발할 때 새롭게 알게된 내용 토대로 커밋 메세지를 작성해야겠다 😄
