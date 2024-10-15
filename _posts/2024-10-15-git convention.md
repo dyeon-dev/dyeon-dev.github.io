@@ -151,8 +151,6 @@ ex) “change”이지 “changed”도 아니고 “changes”도 아님
 ### 메시지 본문 (body)
 
 - 명령형, 현재형을 사용한다.
-- 변경 이유를 포함하고 이전과 차이점을 설명한 문서
-  - <http://365git.tumblr.com/post/3308646748/writing-git-commit-messages> <http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html>
 
 ### 메시지 바닥글 (footer)
 
