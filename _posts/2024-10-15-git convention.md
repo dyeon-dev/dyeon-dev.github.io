@@ -9,7 +9,7 @@ mermaid: true
 ---
 
 우테코 프리코스 7기의 1주차 학습목표이다.
-![image](https://github.com/user-attachments/assets/ce07ff2d-3c31-4a22-938f-6f70640e2ec4)
+![alt text](image.png)
 
 이번 기회에 참여하면서 Git의 커밋 단위로  [AngularJS Git Commit Message Conventions](https://gist.github.com/stephenparish/9941e89d80e2bc58a153)을 참고하여 커밋 메세지를 작성해보고 정리해보았다.
 
